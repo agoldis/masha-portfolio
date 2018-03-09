@@ -1,0 +1,30 @@
+{
+  "name": "masha-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrew Goldis <goldisag@amazon.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --hot"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.0.6",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.7.2",
+    "popper.js": "^1.12.9",
+    "postcss-loader": "^2.1.1",
+    "precss": "^3.1.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
